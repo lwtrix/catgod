@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="status-container">
-        <img src="./pfp.jpeg" width={"150px"}/>
+        <img src="./pfp.jpeg" width={"150px"} alt='pfp'/>
         <h1>CATGOD</h1>
         <div className="status">
           <h2>In Works</h2>
