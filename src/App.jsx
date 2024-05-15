@@ -1,0 +1,17 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <div className="status-container">
+        <h1>CATGOD</h1>
+        <div className="status">
+          <h2>In Works</h2>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
