@@ -11,18 +11,20 @@ const ButtonsSection = () => {
     <div className="buttons-section">
       <div className="buy-container">
         <img src="./buy-now.png" alt="cat god" />
-        <MainBtn disabled>BUY NOW</MainBtn>
+        <a href='https://pump.fun/aR8gjxkeEUXgnFBgBn5TRePZ4X5Gyf8pWk667ddyBp6'>
+        <MainBtn>BUY NOW</MainBtn>
+        </a>
       </div>
       <div className="bottom-section">
         <div className="links-container">
           <MainBtn disabled>Dexscreen</MainBtn>
-          <MainBtn disabled>
-            <IoStatsChart className="icon" />
-          </MainBtn>
+            <MainBtn disabled>
+              <IoStatsChart className="icon" />
+            </MainBtn>
         </div>
         <div className="ca-container">
           <span className="ca-label">Contract Address</span>
-          <span className="ca-text">0X0000000000000 (Coming Soon)</span>
+          <span className="ca-text">aR8gjxkeEUXgnFBgBn5TRePZ4X5Gyf8pWk667ddyBp6</span>
         </div>
       </div>
     </div>
