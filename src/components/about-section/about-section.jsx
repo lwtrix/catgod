@@ -15,7 +15,7 @@ const AboutSection = () => {
           and be granted the ultimate ecstasy.
         </p>
         <a href="https://pump.fun/aR8gjxkeEUXgnFBgBn5TRePZ4X5Gyf8pWk667ddyBp6">
-        <MainBtn>BUY NOW</MainBtn>
+        <MainBtn href={'https://pump.fun/aR8gjxkeEUXgnFBgBn5TRePZ4X5Gyf8pWk667ddyBp6'}>BUY NOW</MainBtn>
         </a>
         </div>
         <img src="./catgod.gif" alt="catgod gif" />
