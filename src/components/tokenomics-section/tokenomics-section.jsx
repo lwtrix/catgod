@@ -29,7 +29,7 @@ const TokenomicsSection = () => {
           />
           <TokenomCard
             title={"Dev Supply"}
-            value={"6.5%"}
+            value={"3%"}
             imgUrl='./dev.png'
             width="140"
             description={
