@@ -55,12 +55,25 @@
 
 
 @media (max-width:760px) {
+
+    .navigation {
+        padding: 12px 12px;
+    }
+
     .navigation .links-container .icon-container {
         width: 40px;
         height: 40px;
     }
 
+    .navigation .links-container A {
+        margin-right: 12px;
+    }
+
     .navigation .logo-container .logo {
         width: 80px;
+    }
+
+    .navigation .logo-container .logo-heading {
+        font-size: 28px;
     }
 }

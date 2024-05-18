@@ -69,5 +69,11 @@
 @media (max-width: 960px) {
     .buttons-section {
         margin-top: 90px;
+        width: 380px;
+    }
+
+    .buttons-section .buy-container img {
+        width: 180px;
+        margin-bottom: -17px;
     }
 }
