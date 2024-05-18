@@ -17,7 +17,7 @@ const Navigation = () => {
       <ul className="links-container">
         <li>
           <a
-            href="https://main--catgod.netlify.app/"
+            href="https://t.me/+lVRvRPVmYq5hZGQ0"
             target="blank"
             rel="noopener noreferrer"
             className="icon-container"
@@ -27,7 +27,7 @@ const Navigation = () => {
         </li>
         <li>
           <a
-            href="https://main--catgod.netlify.app/"
+            href="https://x.com/CatGod_Solana/"
             target="blank"
             rel="noopener noreferrer"
             className="icon-container"

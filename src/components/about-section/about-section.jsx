@@ -14,7 +14,7 @@ const AboutSection = () => {
           coin bow down to Him, as He is the ONE TRUE CAT GOD. Join His presence
           and be granted the ultimate ecstasy.
         </p>
-        <MainBtn>BUY NOW</MainBtn>
+        <MainBtn disabled>BUY NOW</MainBtn>
         </div>
         <img src="./catgod.gif" alt="catgod gif" />
       </div>

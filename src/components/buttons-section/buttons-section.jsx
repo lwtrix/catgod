@@ -11,12 +11,12 @@ const ButtonsSection = () => {
     <div className="buttons-section">
       <div className="buy-container">
         <img src="./buy-now.png" alt="cat god" />
-        <MainBtn>BUY NOW</MainBtn>
+        <MainBtn disabled>BUY NOW</MainBtn>
       </div>
       <div className="bottom-section">
         <div className="links-container">
           <MainBtn disabled>Dexscreen</MainBtn>
-          <MainBtn>
+          <MainBtn disabled>
             <IoStatsChart className="icon" />
           </MainBtn>
         </div>

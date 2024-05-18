@@ -16,6 +16,10 @@
     cursor: pointer;
 }
 
+.main-btn:hover {
+    background-color: #fff9c3db;
+}
+
 .main-btn:disabled {
     cursor:not-allowed;
 }
