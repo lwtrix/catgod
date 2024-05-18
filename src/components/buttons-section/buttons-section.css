@@ -1,0 +1,73 @@
+.buttons-section {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.buttons-section .buy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-section .buy-container img {
+    width: 220px;
+    margin-bottom: -20px;
+    z-index: 1000;   
+}
+
+.buttons-section .bottom-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.buttons-section .bottom-section .links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-section .bottom-section .links-container .main-btn {
+    width: 48%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.buttons-section .bottom-section .links-container .main-btn .icon {
+    width: 30px;
+    height: 30px;
+}
+
+.buttons-section .bottom-section .ca-container {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    height: 70px;
+    background-color:#E2DA8F;
+    border-radius: 50px;
+}
+
+.buttons-section .bottom-section .ca-container .ca-label {
+    background-color: black;
+    width: fit-content;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.buttons-section .bottom-section .ca-container .ca-text {
+    font-size: 18px;
+    width: fit-content;
+    margin-left: 24px;
+}
+
+@media (max-width: 960px) {
+    .buttons-section {
+        margin-top: 90px;
+    }
+}

@@ -1,0 +1,113 @@
+.tokenomics-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.tokenomics-section .heading {
+    font-size: 64px;
+    color: #FFF9C3;
+    text-transform: uppercase;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.card-container {
+    width: 26%;
+    background-color: rgba(255, 255, 255, 0.064);
+    border: 2px solid #FFF9C3;
+    padding: 40px;
+    color: white;
+    border-radius: 24px;
+    box-shadow: 0 20px 0 0 rgba(0, 0, 0, 0.358);
+}
+
+.card-container .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 220px;
+}
+
+.card-container .info-container .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-container .info-container .text-container .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.card-container .info-container .text-container .value {
+    font-size: 42px;
+    margin-top: 38px;
+    color: #FFF9C3;
+    font-weight: 800;
+}
+
+.card-container .description {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+
+    .cards-container {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+    .card-container {
+        width: 60%;
+        margin-bottom: 48px;
+    }
+
+    .card-container .info-container img {
+        width: 180px;
+    }
+
+    .card-container .description {
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 680px) {
+    .tokenomics-section {
+        margin-top: 120px;
+    }
+
+    .tokenomics-section .heading {
+        font-size: 48px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+    .card-container {
+        width: 70%;
+        margin-bottom: 48px;
+    }
+    
+    .card-container img {
+        width: 165px;
+    }
+}
