@@ -99,15 +99,29 @@
         flex-direction: column;
         justify-self: center;
         align-items: center;
-        margin-top: 120px;
+        margin: 0 auto;
+        margin-top: 100px;
     }
 
     .card-container {
-        width: 380px;
+        width: 320px;
         margin-bottom: 48px;
     }
     
     .card-container .info-container img {
         width: 145px;
     }
+
+    .card-container .description {
+        margin-top: 12px;
+    }
+
+    .card-container .info-container .text-container .title {
+        font-size: 18px;
+    }
+
+    .card-container .info-container .text-container .value {
+        font-size: 32px;
+    }
+
 }
