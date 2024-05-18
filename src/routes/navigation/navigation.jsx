@@ -17,7 +17,7 @@ const Navigation = () => {
       <ul className="links-container">
         <li>
           <a
-            href="https://t.me/+lVRvRPVmYq5hZGQ0"
+            href="https://t.me/CatGodOnSolana"
             target="blank"
             rel="noopener noreferrer"
             className="icon-container"
