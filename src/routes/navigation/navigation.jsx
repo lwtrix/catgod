@@ -11,13 +11,13 @@ const Navigation = () => {
       <Link className="logo-container" to="/">
         <img src="./logo.png" alt="CatGod Logo" className="logo" />
         <div className="logo-heading" aria-level="1" role="heading">
-          $CATG
+          $YUMI
         </div>
       </Link>
       <ul className="links-container">
         <li>
           <a
-            href="https://t.me/CatGodOnSolana"
+            href="https://t.me/YumiOnSol"
             target="blank"
             rel="noopener noreferrer"
             className="icon-container"
@@ -27,7 +27,7 @@ const Navigation = () => {
         </li>
         <li>
           <a
-            href="https://x.com/CatGod_Solana/"
+            href="https://x.com/Yumi1287342652"
             target="blank"
             rel="noopener noreferrer"
             className="icon-container"

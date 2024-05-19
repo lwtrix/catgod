@@ -30,6 +30,12 @@
     margin-bottom: 38px;
 }
 
+.about-section .container p .text-highlight {
+    font-size: 22px;
+    color: #FFF9C3;
+    font-weight: 600;
+}
+
 @media (max-width: 1280px) {
     .about-section .container {
         width: 920px;

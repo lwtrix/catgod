@@ -24,7 +24,7 @@ const TokenomicsSection = () => {
             imgUrl='./tax.png'
             width="160"
             description={
-              "Cat God does not tax holders, after all.. it is THE Cat God."
+              "Yumi does not tax holders as Yumi is rich and generous."
             }
           />
           <TokenomCard

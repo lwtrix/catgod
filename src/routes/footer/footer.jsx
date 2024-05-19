@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <img src="./logo.png" alt="CatGod Logo" width={"50px"} />
-      <span>CatGod © All rights reserved</span>
+      <span>Yumi © All rights reserved</span>
     </div>
   );
 };
